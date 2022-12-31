@@ -1,0 +1,859 @@
+
+// ---------BODY--------
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+// ---------HEADER--------
+header {
+    
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+
+.sticky {
+    
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+// ---------NAV-----------
+
+
+
+.navbar {
+    background-color: #127FC3;
+
+
+    P {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+            color: rgb(218, 218, 218);
+        }
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 1);
+
+    }
+
+    .navbar-toggler-icon {
+
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+    }
+
+}
+
+
+
+
+// ---------MAIN--------
+
+main {
+    z-index: -1;
+    h2 {
+        display:flex;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgb(22, 22, 22);
+
+        @media screen and (min-width: 576px){
+            font-size: 28px;
+          }
+          @media screen and (min-width: 768px){
+            font-size: 35px;
+          } 
+        @media screen and (min-width: 992px){
+            font-size: 35px;
+          }
+        @media screen and (min-width: 1200px){
+            font-size: 38px;
+          } 
+        @media screen and (min-width: 1400px){
+            font-size: 50px;
+          }
+
+          &:before, &:after {
+            flex:1;
+            height: 5px;
+            content: '';
+            background-color: #127FC3;
+            border-radius: 20px;
+            }
+        &::before {
+            margin-right:10px;
+        }
+        &::after {
+            margin-left:10px;
+        }
+        
+        
+    }
+
+
+}
+
+// ---------SECTION CIAO-----------
+
+.section_ciao {
+
+    background-color: rgb(18, 127, 195,0.1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media screen and (min-width: 576px){
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      @media screen and (min-width: 768px){
+        padding-top: 150px;
+        padding-bottom: 150px;
+      } 
+    @media screen and (min-width: 992px){
+        padding-top: 80px;
+        padding-bottom: 80px;
+      }
+    @media screen and (min-width: 1200px){
+        padding-top: 50px;
+        padding-bottom: 50px;
+      } 
+    @media screen and (min-width: 1400px){
+        padding-top: 150px;
+        padding-bottom: 150px;
+      }
+
+    .container {
+        margin-bottom: 1px;
+
+          @media screen and (max-width: 768px){
+          padding-bottom: 0;
+            
+          } 
+            
+        
+        @media screen and (min-width: 1200px){
+
+            margin-bottom: 25px;
+
+          } 
+        @media screen and (min-width: 1400px){
+            margin-bottom: 30px;
+
+          }
+        }
+    }
+
+    .card-body {
+        
+        text-align: center;
+
+        @media screen and (max-width: 768px){
+            margin-bottom: 50px;
+
+        }
+
+    }
+
+
+
+    .card-title_1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 35px;
+        margin-right: 35px;
+
+        @media screen and (min-width: 576px){
+            font-size: 30px;
+            
+          }
+          @media screen and (min-width: 768px){
+            font-size: 30px;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+          } 
+        @media screen and (min-width: 992px){
+            font-size: 35px;
+            
+          }
+        @media screen and (min-width: 1200px){
+            font-size: 40px;
+            
+        }
+        @media screen and (min-width: 1400px){
+            font-size: 55px;
+            
+        }
+
+        span {
+            color: #127FC3;
+        }
+
+    }
+
+    .card-text_1 {
+        margin: auto;
+        font-size: 20px;
+        width: 250px;
+        color: #127FC3;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-right: 4px solid;
+        animation: blink 2s step-end infinite, type 2.5s steps(20) forwards;
+        overflow: hidden;
+        white-space: nowrap;
+
+        span{
+            color: rgb(22, 22, 22);
+        }
+
+        @media screen and (min-width: 576px){
+            font-size: 20px;
+            width: 250px;
+        }
+        @media screen and (min-width: 768px){
+            font-size: 20px;
+            width: 250px;
+        } 
+      @media screen and (min-width: 992px){
+            font-size: 25px;
+            width: 310px;
+        }
+      @media screen and (min-width: 1200px){
+            font-size: 35px;
+            width: 430px;
+        }
+      @media screen and (min-width: 1400px){
+            font-size: 40px;
+            width: 490px;
+        }
+
+
+    }
+
+    .btn_header {
+        border-color: #127FC3;
+        background-color: #127FC3;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+        cursor: pointer;
+        margin-top: 30px;
+        @media screen and (min-width: 576px){
+            font-size: 15px;
+            
+
+        }
+        @media screen and (min-width: 768px){
+            font-size: 15px;
+            
+
+        } 
+      @media screen and (min-width: 992px){
+            font-size: 15px;
+            
+        }
+        @media screen and (min-width: 1200px){
+            font-size: 20px;
+            
+          }
+        @media screen and (min-width: 1400px){
+            font-size: 20px;
+        
+          }
+
+        &:hover {
+            border-color: #2ea4ed;
+            background-color: #2ea4ed;
+            transform: scale(1.1);
+        }
+
+    }
+
+
+    .social {
+        
+        display: none;
+
+        @media screen and (min-width: 992px){
+            right: 0;
+            position: absolute;
+            top: 45%;
+            display: flex;
+            flex-direction: column;
+            background-color: #127FC3;
+            border: 1px solid;
+            border-color: #127FC3;
+            border-radius: 5px;
+            padding-top:25px;
+            padding-bottom:25px;
+          }
+        @media screen and (min-width: 1200px){
+
+            right: 0;
+            position: absolute;
+            top: 45%;
+            display: flex;
+            flex-direction: column;
+            background-color: #127FC3;
+            border: 1px solid;
+            border-color: #127FC3;
+            border-radius: 5px;
+            padding-top:25px;
+            padding-bottom:25px;
+          } 
+        @media screen and (min-width: 1400px){
+            right: 0;
+            position: absolute;
+            top: 45%;
+            display: flex;
+            flex-direction: column;
+            background-color: #127FC3;
+            border: 1px solid;
+            border-color: #127FC3;
+            border-radius: 5px;
+            padding-top:25px;
+            padding-bottom:25px;
+          }
+
+    .icone_header {
+
+        display: none;
+
+        @media screen and (min-width: 992px){
+
+            display: block;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+          } 
+
+        @media screen and (min-width: 1200px){
+
+            display: block;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+          } 
+
+        @media screen and (min-width: 1400px){
+
+            display: block;
+            color: white;
+            cursor: pointer;
+            font-size: 30px;
+          }
+        
+    
+        &:hover {
+            color: #2ea4ed;
+        }
+    }
+    }
+
+    .img_header {
+
+        @media screen and (max-width: 768px){
+
+            margin-bottom: 10px;
+
+        }
+        
+        #foto_luca {
+
+            width: 30%;
+            border: 1px solid #127FC3;
+            border-radius: 50%;
+
+            @media screen and (min-width: 576px){
+
+                width: 40%;
+            }
+
+            @media screen and (min-width: 768px){
+
+                width: 70%;
+
+            }
+
+            @media screen and (min-width: 992px){
+
+                width: 70%;
+            } 
+
+            @media screen and (min-width: 1200px){
+
+                width: 70%;
+            } 
+            
+        }
+    }
+
+    .arrow{
+        transform: translate(-50%, -50%);
+    }
+    
+    .arrow span{
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 2px solid #2ea4ed;
+        border-right: 2px solid #2ea4ed;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+        .box span:nth-child(2)
+    {
+        animation-delay: -0.3s;
+    }
+    
+}
+    
+        
+
+
+
+@keyframes animate{
+        
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+  }
+
+
+// ---------SECTION ABOUT ME-----------
+
+.section_aboutme {
+
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+    .aboutme_bio {
+
+        color: rgb(90, 90, 90);
+        
+        padding-left: 0;
+
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+            @media screen and (min-width: 576px){
+
+                font-size: 20px;
+            }
+
+            @media screen and (min-width: 768px){
+
+                font-size: 20px;
+
+            }
+
+            @media screen and (min-width: 992px){
+
+                font-size: 20px;
+            } 
+            @media screen and (min-width: 1200px){
+
+                font-size: 25px;
+            } 
+        }
+
+        .btn_contatti {
+            border-color: #127FC3;
+            background-color: #127FC3;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 700;
+            font-size: 15px;
+            box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+            cursor: pointer;
+            margin-top: 30px;
+            @media screen and (min-width: 576px){
+                font-size: 15px;
+                
+    
+            }
+            @media screen and (min-width: 768px){
+                font-size: 15px;
+                
+    
+            } 
+          @media screen and (min-width: 992px){
+                font-size: 15px;
+                
+            }
+            @media screen and (min-width: 1200px){
+                font-size: 20px;
+                
+              }
+            @media screen and (min-width: 1400px){
+                font-size: 20px;
+            
+              }
+    
+            &:hover {
+                border-color: #2ea4ed;
+                background-color: #2ea4ed;
+                transform: scale(1.1);
+            }
+
+    }
+ 
+
+}
+
+}
+
+.section_skills {
+    background-color: rgb(18, 127, 195,0.1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    button {
+        border-color: #127FC3;
+        color: #127FC3;
+        font-size: 15px;
+        @media screen and (min-width: 576px){
+
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: 768px){
+
+            font-size: 20px;
+
+        }
+
+        @media screen and (min-width: 992px){
+
+            font-size: 20px;
+        } 
+        @media screen and (min-width: 1200px){
+
+            font-size: 25px;
+        }
+
+        &:hover {
+
+            background-color: #127FC3;
+            color:white;
+
+        }
+        
+    }
+}
+
+// ---------SECTION ESPERIENZE-----------
+
+.section_esperienze {
+
+padding-top: 100px;
+   padding-bottom: 100px;
+    
+    .accordion {
+
+        
+
+        --bs-accordion-color: white;
+
+        background-color: #127FC3;
+
+        --bs-accordion-btn-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        
+        --bs-accordion-active-color: white;
+
+
+    }
+
+    .accordion-item {
+        background-color: white;
+    }
+
+    .accordion-header {
+        background-color: #127FC3;
+        border-color: transparent;
+        
+        
+    }
+    .accordion-button {
+        background-color: #127FC3;
+        color: white;
+        font-size: 15px;
+        @media screen and (min-width: 576px){
+
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: 768px){
+
+            font-size: 20px;
+
+        }
+
+        @media screen and (min-width: 992px){
+
+            font-size: 20px;
+        } 
+        @media screen and (min-width: 1200px){
+
+            font-size: 25px;
+        } 
+
+        &::before {
+            flex-shrink: 0;
+            width: var(--bs-accordion-btn-icon-width);
+            height: var(--bs-accordion-btn-icon-width);
+            content: "";
+            background-image: var(--bs-accordion-btn-icon);
+            background-repeat: no-repeat;
+            background-size: var(--bs-accordion-btn-icon-width);
+            transition: var(--bs-accordion-btn-icon-transition);
+            margin-right: 10px;
+        }
+        &::after {
+            all:unset;
+        }
+        
+    }
+
+    .accordion-body {
+        background-color: white;
+        color: rgb(90, 90, 90);
+        font-size: 15px;
+        text-align: left;
+            @media screen and (min-width: 576px){
+
+                font-size: 20px;
+            }
+
+            @media screen and (min-width: 768px){
+
+                font-size: 20px;
+
+            }
+
+            @media screen and (min-width: 992px){
+
+                font-size: 20px;
+            } 
+            @media screen and (min-width: 1200px){
+
+                font-size: 25px;
+            }
+
+            li{
+                list-style: none;
+
+                &::before {
+      
+                    content: "\02C3";
+                    padding-right: 3px;
+                    color: #127FC3;
+                    font-weight: 700;
+                }
+            }
+        
+    }
+}
+
+// ---------SECTION PROGETTI-----------
+
+.section_progetti {
+    background-color: rgb(18, 127, 195,0.1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .card-title_2 {
+        font-weight: 700;
+    }
+
+    .card-text_2 {
+        text-align: justify;
+        color: rgb(90, 90, 90);
+    }
+
+    .badge {
+        --bs-badge-color: #127FC3;
+    }
+
+    .btn_progetto {
+        background-color:#127FC3;
+        color: white;
+        font-weight: 700;
+        box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+        cursor: pointer;
+    }
+
+}
+
+// ---------SECTION CONTATTI-----------
+
+.section_contatti {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    p {
+        color: rgb(90, 90, 90);
+        font-size: 20px;
+        @media screen and (min-width: 576px){
+
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: 768px){
+
+            font-size: 20px;
+
+        }
+
+        @media screen and (min-width: 992px){
+
+            font-size: 20px;
+        } 
+        @media screen and (min-width: 1200px){
+
+            font-size: 25px;
+        }
+    }
+    
+
+    i {
+        color: #127FC3;
+        font-size: 20px;
+        @media screen and (min-width: 576px){
+
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: 768px){
+
+            font-size: 20px;
+
+        }
+
+        @media screen and (min-width: 992px){
+
+            font-size: 20px;
+        } 
+        @media screen and (min-width: 1200px){
+
+            font-size: 25px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 700;
+        color: rgb(90, 90, 90);
+        font-size: 20px;
+        @media screen and (min-width: 576px){
+
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: 768px){
+
+            font-size: 20px;
+
+        }
+
+        @media screen and (min-width: 992px){
+
+            font-size: 20px;
+        } 
+        @media screen and (min-width: 1200px){
+
+            font-size: 25px;
+        }
+    }
+}
+
+// ---------FOOTER--------
+
+
+footer {
+    background-color: rgb(22, 22, 22);
+    color: white;
+
+    h5 {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .icone_footer {
+        color: white;
+        font-size: 30px;
+
+        &:hover {
+            color: #2ea4ed;
+        }
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .heart {
+        color: red;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    
+}
