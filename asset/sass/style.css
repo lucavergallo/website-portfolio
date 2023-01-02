@@ -195,8 +195,8 @@ main h2::after {
 @media screen and (min-width: 1400px) {
   .card-title_1 {
     font-size: 55px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 .card-title_1 span {
