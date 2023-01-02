@@ -31,7 +31,7 @@ header {
 
     P {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 700;
         text-transform: uppercase;
 
@@ -44,7 +44,7 @@ header {
 
     .nav-link {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 700;
         text-transform: uppercase;
         cursor: pointer;
@@ -142,7 +142,7 @@ main {
         padding-bottom: 50px;
       } 
     @media screen and (min-width: 1400px){
-        padding-top: 150px;
+        padding-top: 80px;
         padding-bottom: 150px;
       }
 
@@ -254,11 +254,11 @@ main {
             width: 310px;
         }
       @media screen and (min-width: 1200px){
-            font-size: 35px;
+            font-size: 32px;
             width: 430px;
         }
       @media screen and (min-width: 1400px){
-            font-size: 40px;
+            font-size: 38px;
             width: 490px;
         }
 
@@ -511,7 +511,7 @@ main {
             } 
             @media screen and (min-width: 1200px){
 
-                font-size: 25px;
+                font-size: 22x;
             } 
         }
 
@@ -587,7 +587,7 @@ main {
         } 
         @media screen and (min-width: 1200px){
 
-            font-size: 25px;
+            font-size: 22px;
         }
 
         &:hover {
@@ -657,7 +657,7 @@ padding-top: 100px;
         } 
         @media screen and (min-width: 1200px){
 
-            font-size: 25px;
+            font-size: 22px;
         } 
 
         &::before {
@@ -699,7 +699,7 @@ padding-top: 100px;
             } 
             @media screen and (min-width: 1200px){
 
-                font-size: 25px;
+                font-size: 22px;
             }
 
             li{
@@ -773,7 +773,7 @@ padding-top: 100px;
         } 
         @media screen and (min-width: 1200px){
 
-            font-size: 25px;
+            font-size: 23px;
         }
     }
     

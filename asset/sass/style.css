@@ -19,7 +19,7 @@ header {
 }
 .navbar P {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -28,7 +28,7 @@ header {
 }
 .navbar .nav-link {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
@@ -124,7 +124,7 @@ main h2::after {
 }
 @media screen and (min-width: 1400px) {
   .section_ciao {
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 150px;
   }
 }
@@ -239,13 +239,13 @@ main h2::after {
 }
 @media screen and (min-width: 1200px) {
   .card-text_1 {
-    font-size: 35px;
+    font-size: 32px;
     width: 430px;
   }
 }
 @media screen and (min-width: 1400px) {
   .card-text_1 {
-    font-size: 40px;
+    font-size: 38px;
     width: 490px;
   }
 }
@@ -498,7 +498,7 @@ main h2::after {
 }
 @media screen and (min-width: 1200px) {
   .section_aboutme .aboutme_bio p {
-    font-size: 25px;
+    font-size: 22x;
   }
 }
 .section_aboutme .aboutme_bio .btn_contatti {
@@ -570,7 +570,7 @@ main h2::after {
 }
 @media screen and (min-width: 1200px) {
   .section_skills button {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 .section_skills button:hover {
@@ -618,7 +618,7 @@ main h2::after {
 }
 @media screen and (min-width: 1200px) {
   .section_esperienze .accordion-button {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 .section_esperienze .accordion-button::before {
@@ -658,7 +658,7 @@ main h2::after {
 }
 @media screen and (min-width: 1200px) {
   .section_esperienze .accordion-body {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 .section_esperienze .accordion-body li {
@@ -719,7 +719,7 @@ main h2::after {
 }
 @media screen and (min-width: 1200px) {
   .section_contatti p {
-    font-size: 25px;
+    font-size: 23px;
   }
 }
 .section_contatti i {
