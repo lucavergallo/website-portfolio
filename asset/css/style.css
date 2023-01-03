@@ -16,6 +16,10 @@ header {
 
 .navbar {
   background-color: #127FC3;
+  --bs-navbar-padding-y: 0rem;
+}
+.navbar img {
+  width: 50px;
 }
 .navbar P {
   color: white;
@@ -693,6 +697,10 @@ main h2::after {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+.section_progetti .btn_progetto:hover {
+  border-color: #2ea4ed;
+  background-color: #2ea4ed;
+}
 
 .section_contatti {
   padding-top: 100px;
@@ -700,7 +708,8 @@ main h2::after {
 }
 .section_contatti p {
   color: rgb(90, 90, 90);
-  font-size: 20px;
+  font-size: 16px;
+  text-align: justify;
 }
 @media screen and (min-width: 576px) {
   .section_contatti p {

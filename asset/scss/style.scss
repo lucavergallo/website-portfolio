@@ -27,6 +27,11 @@ header {
 
 .navbar {
     background-color: #127FC3;
+    --bs-navbar-padding-y: 0rem;
+
+    img {
+        width:50px;
+    }
 
 
     P {
@@ -743,6 +748,13 @@ padding-top: 100px;
         font-weight: 700;
         box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
         cursor: pointer;
+
+        &:hover {
+
+            border-color: #2ea4ed;
+            background-color: #2ea4ed;
+
+        }
     }
 
 }
@@ -755,7 +767,8 @@ padding-top: 100px;
 
     p {
         color: rgb(90, 90, 90);
-        font-size: 20px;
+        font-size: 16px;
+        text-align: justify;
         @media screen and (min-width: 576px){
 
             font-size: 20px;
