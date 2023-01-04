@@ -680,6 +680,9 @@ main h2::after {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.section_progetti .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .section_progetti .card-title_2 {
   font-weight: 700;
 }

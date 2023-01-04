@@ -172,6 +172,8 @@ main {
         }
     }
 
+    
+
     .card-body {
         
         text-align: center;
@@ -728,6 +730,12 @@ padding-top: 100px;
     background-color: rgb(18, 127, 195,0.1);
     padding-top: 100px;
     padding-bottom: 100px;
+
+    .card {
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
 
     .card-title_2 {
         font-weight: 700;
